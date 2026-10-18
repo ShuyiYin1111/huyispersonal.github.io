@@ -1,6 +1,7 @@
 name: Create release notes
 
 on:
+  workflow_dispatch: 
   push:
     tags:
       - 'v*'
